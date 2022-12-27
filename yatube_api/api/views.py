@@ -1,10 +1,11 @@
+from django.core.exceptions import PermissionDenied
 from django.shortcuts import get_object_or_404
+
 from rest_framework import permissions, viewsets
 from rest_framework.permissions import IsAuthenticated
-from django.core.exceptions import PermissionDenied
 
-from .serializers import CommentSerializer, GroupSerializer, PostSerializer
 from posts.models import Comment, Group, Post
+from .serializers import CommentSerializer, GroupSerializer, PostSerializer
 
 
 class IsAuthorOrReadOnly(permissions.BasePermission):
