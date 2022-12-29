@@ -30,7 +30,7 @@ class CommentViewSet(viewsets.ModelViewSet):
         return get_object_or_404(Post, id=post_id)
 
     def get_queryset(self):
-        return self.get_post_obj().comments.select_related('post')
+        return self.get_post_obj().comments.all()
 
     def perform_create(self, serializer):
         serializer.save(
