@@ -4,7 +4,7 @@
 
 ## Технологии:
 * Python 3.7
-* Django 2.2
+* Django 3.2
 * Django REST Framework 3.12.4
 * Djangorestframework-simplejwt 4.7.2
 * Pillow 9.3.0
