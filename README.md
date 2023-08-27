@@ -3,11 +3,10 @@
 ### Ссылка на соц. сеть: https://github.com/Oskalovlev/hw05_final
 
 ## Технологии:
-* Python 3.7
-* Django 3.2
-* Django REST Framework 3.12.4
-* Djangorestframework-simplejwt 4.7.2
-* Pillow 9.3.0
+* Python - 3.7
+* Django - 3.2
+* Django REST Framework - 3.12.4
+* Pillow - 9.3.0
 ##### P.S. Остальной стек в requirements.txt
 
 ### Клонировать репозиторий и перейти в него в командной строке:
